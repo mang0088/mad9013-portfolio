@@ -21,7 +21,7 @@
 
 .basic-2 img {
   display: block;
-  margin: 0 auto;
+  margin: 0;
   padding-bottom: 3rem;
 }
 
@@ -32,6 +32,10 @@
 @media (min-width: 48rem) {
   .basic-2 {
     text-align: center;
+  }
+
+  .basic-2 img {
+    margin: 0 auto;
   }
 
   .basic-2 .p-heading {
