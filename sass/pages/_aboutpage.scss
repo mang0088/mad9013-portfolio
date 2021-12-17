@@ -1,5 +1,5 @@
 div#about {
-  background-color: #ffffff;
+  background-color: $color-primary-white;
 }
 
 .basic-1 {
@@ -13,7 +13,7 @@ div#about {
 
 .basic-1 .time {
   margin-bottom: 0.5rem;
-  color: #0b36a8;
+  color: $color-primary-blue;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 1.5rem;

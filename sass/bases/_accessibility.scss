@@ -10,8 +10,8 @@
     top: -100rem;
     display: inline-block;
     padding: 1rem;
-    background-color: red;
-    color: #fff;
+    background-color: $color-accent-red;
+    color: $color-primary-white;
     font-weight: bold;
     text-decoration: none;
     z-index: 100000;
@@ -22,7 +22,7 @@
   }
 
   *:focus {
-    outline: 0.125rem solid red;
+    outline: 0.125rem solid $color-accent-red;
     outline-offset: 0.125rem;
   }
 
@@ -30,7 +30,7 @@
     position: fixed;
     bottom: 0;
     right: 1rem;
-    background-color: red;
+    background-color: $color-accent-red;
     padding: 0.5rem 0.75rem;
     border-radius: 0.5rem 0.5rem 0 0;
     text-decoration: none;
@@ -44,7 +44,7 @@
 
   .to-top:hover,
   .to-top:focus {
-    background-color: darkred;
+    background-color: $color-primary-red;
     text-decoration: none;
   }
 }

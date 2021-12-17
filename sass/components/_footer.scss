@@ -1,7 +1,7 @@
 .footer {
   padding-bottom: 0rem;
   padding-top: 2rem;
-  background-color: #24262a;
+  background-color: $color-primary-gray;
   text-align: center;
 }
 
@@ -19,21 +19,21 @@
 .copyright {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #24262a;
+  background-color: $color-primary-gray;
   text-align: center;
 }
 
 .copyright .p-small {
-  color: #9da6ac;
+  color: $color-accent-gray;
   text-align: center;
 }
 
 .to-top.visible {
-  color: #fff;
+  color: $color-primary-white;
 }
 
 .copyright a {
-  color: #9da6ac;
+  color: $color-accent-gray;
 }
 
 p.p-small {

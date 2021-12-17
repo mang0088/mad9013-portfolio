@@ -1,10 +1,10 @@
 a {
-  color: #4d5055;
+  color: $color-mid-gray;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #4d5055;
+  color: $color-mid-gray;
   text-decoration: underline;
 }
 
@@ -17,9 +17,9 @@ a:hover {
 }
 
 .blue {
-  color: #2259ec;
+  color: $color-accent-blue;
 }
 
 .bg-gray {
-  background-color: #f7f9fb;
+  background-color: $color-accent-white;
 }
